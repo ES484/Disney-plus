@@ -1,0 +1,9 @@
+.movieStyle
+{
+    cursor: pointer;
+    transition: all .5s;
+}
+.movieStyle:hover
+{
+    transform: scale(1.08);
+}

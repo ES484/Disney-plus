@@ -1,0 +1,97 @@
+* {
+  color: #FFF;
+}
+
+.mainSection {
+  width: 100%;
+  background: url("../../images/login-background.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.login {
+  padding: 10px 20px;
+  background-color: #050814;
+  color: #FFF !important;
+  border: 1px solid #FFF;
+  border-radius: 7%;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.mainSection img {
+  width: 150px;
+}
+
+.mainSection h1 {
+  font-size: 2.75rem;
+  margin-bottom: 50px;
+}
+
+.mainSection .join button {
+  background-color: #016CF9;
+  border: none;
+  width: 250px;
+  margin: 5px 10px 20px 0;
+  padding: 15px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.mainSection span {
+  color: #c0c0c0;
+}
+
+.mainSection .footnote p {
+  font-size: .9rem;
+  color: #c0c0c0;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.watchway ul li {
+  font-size: 1.2rem;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+
+.questionSection {
+  background-color: #13151D;
+}
+
+.questionSection * {
+  color: #c0c0c0;
+  font-size: 1.2rem;
+}
+
+.questionSection h4 {
+  color: #FFF;
+}
+
+.questionSection div div:first-child {
+  cursor: pointer;
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: .9rem;
+  padding: 20px 0;
+}
+
+.footer img {
+  width: 100px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #c0c0c0;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.footer p {
+  color: #c0c0c0;
+}
+/*# sourceMappingURL=Cover.module.css.map */

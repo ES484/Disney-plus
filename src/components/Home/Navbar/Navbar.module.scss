@@ -1,0 +1,60 @@
+@import '../../../mainStyles/mainColors';
+.navBar
+{
+    background-color: $bgColor;
+}
+.navBrand 
+{
+    width: 10%;
+}
+.navLinks li a
+{
+    color: $textColor !important;
+    position: relative;
+}
+.navLinks li a::after
+{
+    content: "";
+    height: 2px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -2px;
+    opacity: 0;
+    transform-origin: left center;
+    transition: all .5s;
+}
+.navLinks li a:hover::after
+{
+    opacity: 1;
+    width: 100%;
+}
+.navLinks li a i
+{
+    padding: 0 8px;
+}
+.userProfileDetails button
+{
+    background-color: $bgSecondaryColor;
+    color: $secondaryColor;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: all 2s;
+}
+.userProfileDetails:hover button
+{
+   opacity: 1;
+}
+.profileImg
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20%;
+    cursor: pointer;
+}

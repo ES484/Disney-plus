@@ -1,0 +1,98 @@
+@import '../../mainStyles//mainColors.scss';
+*
+{
+    color: $textColor 
+}
+.mainSection
+{
+    width: 100%;
+    background: url('../../images/login-background.jpg') no-repeat center;
+    background-size: cover;
+}
+.login
+{
+    padding: 10px 20px;
+    background-color: $bgColor;
+    color: $textColor !important;
+    border: 1px solid $textColor;
+    border-radius: 7%;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.mainSection img
+{
+    width: 150px
+}
+.mainSection h1
+{
+    font-size: 2.75rem;
+    margin-bottom: 50px;
+}
+.mainSection .join button
+{
+    background-color: #016CF9;
+    border: none;
+    width: 250px;
+    margin: 5px 10px 20px 0;
+    padding: 15px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.mainSection span
+{
+    color: $secondaryColor;
+}
+.mainSection .footnote p
+{
+    font-size: .9rem;
+    color: $secondaryColor;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.watchway ul li
+{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+.questionSection
+{
+    background-color: $bgSecondaryColor;
+}
+.questionSection *
+{
+    color: $secondaryColor;
+    font-size: 1.2rem;
+}
+.questionSection h4
+{
+    color: $textColor;
+}
+.questionSection div div:first-child
+{
+    cursor: pointer;
+}
+.footer
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: .9rem;
+    padding: 20px 0;
+}
+.footer img
+{
+    width: 100px;
+}
+.footer a 
+{
+    text-decoration: none;
+    color: $secondaryColor;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.footer p
+{
+    color: $secondaryColor;
+}

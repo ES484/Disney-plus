@@ -1,0 +1,10 @@
+.movieStyle
+{
+    cursor: pointer;
+    transition: all 2s;
+}
+.movieStyle:hover
+{
+    transform: scale(1.08);
+}
+/*# sourceMappingURL=movies.module.css.map */
